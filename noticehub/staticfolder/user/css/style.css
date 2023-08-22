@@ -1,0 +1,73 @@
+                  /* Styling for Header */
+.header {
+    height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #222;
+}
+
+.header h1 {
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Styling for Footer */
+.footer {
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #222;
+}
+
+.footer h1 {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Styling for Content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Styling for Individual Notices */
+.notice {
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.notice:hover {
+    transform: translateY(-5px);
+}
+
+.notice h3 {
+    color: #333;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.notice p {
+    color: #555;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.date-info {
+    color: #888;
+    font-size: 14px;
+}
